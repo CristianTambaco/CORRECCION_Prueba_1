@@ -3,6 +3,7 @@ package FigurasRegulares;
 class Circulo {
 
     //atributos
+    private double PI = 3.14;
     private double radio;
 
     //constructor
@@ -15,6 +16,14 @@ class Circulo {
         return radio;
     }
 
+    public double getPI() {
+        return PI;
+    }
+
+    public void setPI(double PI) {
+        this.PI = PI;
+    }
+
     //setters
     public void setRadio(double radio) {
         this.radio = radio;
@@ -22,11 +31,11 @@ class Circulo {
 
     //metodos personalizados
     public double calcularArea() {
-        return Math.PI * radio * radio;
+        return PI * radio * radio;
     }
 
     public double calcularPerimetro() {
-        return 2 * Math.PI * radio;
+        return 2 * PI * radio;
     }
 
 }
