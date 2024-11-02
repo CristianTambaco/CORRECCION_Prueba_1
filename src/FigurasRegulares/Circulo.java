@@ -20,11 +20,12 @@ public class Circulo {
         return PI;
     }
 
+    //setters
     public void setPI(double PI) {
         this.PI = PI;
     }
 
-    //setters
+
     public void setRadio(double radio) {
         this.radio = radio;
     }
