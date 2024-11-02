@@ -1,6 +1,6 @@
 package FigurasRegulares;
 
-class Circulo {
+public class Circulo {
 
     //atributos
     private double PI = 3.14;

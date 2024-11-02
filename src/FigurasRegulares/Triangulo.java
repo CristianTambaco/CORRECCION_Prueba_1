@@ -1,6 +1,6 @@
 package FigurasRegulares;
 
-class Triangulo {
+public class Triangulo {
 
     //atributos
     private double base;

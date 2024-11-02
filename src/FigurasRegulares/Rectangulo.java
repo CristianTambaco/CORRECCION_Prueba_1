@@ -1,6 +1,6 @@
 package FigurasRegulares;
 
-class Rectangulo {
+public class Rectangulo {
 
     //Atributos
     private double ancho;
